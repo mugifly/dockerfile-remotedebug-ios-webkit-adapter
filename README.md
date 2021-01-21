@@ -56,4 +56,17 @@ $ sudo docker run -it --rm -p=8080:8080 -v /var/run/usbmuxd:/var/run/usbmuxd mug
 4. Now, tabs on Mobile Safari will appear in the "Remote Target" section of Google Chrome.
 
 
+----
+
+
+## Acknowledgments
+
+The built docker image from this Dockerfile contains the following softwares and applied those licenses. Thanks to authors.
+
+* [libplist](https://github.com/libimobiledevice/libplist)
+* [libusbmuxd](https://github.com/libimobiledevice/libusbmuxd)
+* [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice)
+* [usbmuxd](https://github.com/libimobiledevice/usbmuxd)
+* [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy)
+* [remotedebug-ios-webkit-adapter](https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter)
 
